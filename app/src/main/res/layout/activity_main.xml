@@ -6,10 +6,12 @@
     android:weightSum="1">
 <EditText
     android:id="@+id/num1"
+    android:hint="@string/Enter"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/num2"
+        android:hint="@string/Enter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -17,7 +19,7 @@
         android:id="@+id/out"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
+
         android:layout_weight="0.15" />
 
     <Button
